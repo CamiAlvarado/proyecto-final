@@ -1,0 +1,73 @@
+nav {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 234, 0);
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .nav__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8em;
+  }
+  
+  .nav__container--brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav__container--img img {
+    width: 8em;
+    height: 6em;
+    padding: 0.5em;
+  }
+  
+  .nav__container--img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  ul li {
+    padding: 0.5em 1.5em;
+    list-style: none;
+  }
+  
+  .nav__menu ul li:hover {
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+  }
+  
+  .header__forsale img {
+    width: 20em;
+    height: 30em;
+  }
+  
+  .header__information {
+    text-align: center;
+    background-color: rgb(241, 220, 181);
+    padding: 1.5em;
+    font-size: 1.5em;
+  }
+  
+  .header__information h4 {
+    margin: 1em;
+    font-size: 1.5em;
+  }

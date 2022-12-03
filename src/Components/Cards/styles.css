@@ -1,0 +1,20 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    
+}
+.imgContainer { 
+    max-width: 300px;
+    height: 400px;
+    /* background-image: url(/src/Components/Img/sky-starwars.jpg); */
+    display: flex;
+    justify-content: center;
+}
+img{ 
+    width: 100%;
+    height: auto;
+}

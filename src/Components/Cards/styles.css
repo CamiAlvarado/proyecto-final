@@ -6,15 +6,18 @@
     padding: 20px;
     gap: 20px;
     
+    
 }
 .imgContainer { 
-    max-width: 300px;
+    /* max-width: 300px; */
+    width: 400px;
     height: 400px;
-    /* background-image: url(/src/Components/Img/sky-starwars.jpg); */
     display: flex;
     justify-content: center;
+    background-color: rgb(231, 231, 118);
 }
 img{ 
-    width: 100%;
-    height: auto;
+    width: 70%;
+   
+    background-color:black;
 }

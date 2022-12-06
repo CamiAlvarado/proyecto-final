@@ -1,5 +1,5 @@
 import './styles.css'
-import starwars from '../../Components/Img/Star_Wars_Logo.png';
+import starwars from '../../Components/Img/star-wars-logo.jpg';
 
 
 const Nav = () => {

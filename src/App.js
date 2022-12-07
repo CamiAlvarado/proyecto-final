@@ -3,6 +3,7 @@ import Home from './Components/Home';
 import Header from './Components/Header';
 import Cards from './Components/Cards';
 import Footer from './Components/Footer';
+import Movies from './Components/Movies';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -12,7 +13,8 @@ function App() {
     <>
 
       <Header />
-      <Home />
+      {/* <Home /> */}
+      <Movies />
       {/* <Cards /> */}
       <Footer />
     </>

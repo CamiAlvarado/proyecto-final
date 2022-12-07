@@ -1,0 +1,15 @@
+.movies__container--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.movies__container--img img {
+    width: 400px;
+    height: auto;
+}
+
+.information__container {
+color: antiquewhite;
+}

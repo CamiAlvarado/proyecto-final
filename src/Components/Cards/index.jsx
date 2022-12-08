@@ -31,14 +31,14 @@ function Cards() {
     ];
 
     const getData = async () => {
-        const data= await API();
+        const data = await API();
 
-      for(let ele of nombres) {
-        newArr.push(
-            data.find((items) => items.name === nombres[nombres.indexOf(ele)])
-        );
-      }
-      setPersonajes(newArr);
+        for (let ele of nombres) {
+            newArr.push(
+                data.find((items) => items.name === nombres[nombres.indexOf(ele)])
+            );
+        }
+        setPersonajes(newArr);
     };
 
     useEffect(() => {
@@ -56,6 +56,10 @@ function Cards() {
                     <div className="cardContainer" key={personajes.indexOf(item)}>
                         <div className="imgContainer">
                             <img src={item.image} alt={item.name} />
+                        </div>
+                        <div className="infoContainer">
+                            <p>{item.name}</p>
+                            <p>{item.species}</p>
                         </div>
                     </div>
                 ))}

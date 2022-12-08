@@ -1,4 +1,5 @@
 import './styles.css'
+import { Link } from 'react-router-dom'
 import starwars from '../../Components/Img/star-wars-logo.jpg';
 
 
@@ -12,11 +13,11 @@ const Nav = () => {
           </div>
 
         </div>
-        <div class="nav__menu">
+        <div className="nav__menu">
           <ul>
-            <li>Home</li>
-            <li>Characters</li>
-            <li>Movies</li>
+            <li> <Link to='/'> Home</Link></li>
+            <li> <Link to='/Cards'> Characters</Link></li>
+            <li> <Link to='/Movies'> Movies</Link></li>
 
           </ul>
         </div>

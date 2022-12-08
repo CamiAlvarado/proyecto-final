@@ -15,9 +15,9 @@ const Nav = () => {
         </div>
         <div className="nav__menu">
           <ul>
-            <li> <Link to='/'> Home</Link></li>
-            <li> <Link to='/Cards'> Characters</Link></li>
-            <li> <Link to='/Movies'> Movies</Link></li>
+            <li> <Link className='li' to='/'> Home</Link></li>
+            <li> <Link className='li' to='/Cards'> Characters</Link></li>
+            <li> <Link className='li' to='/Movies'> Movies</Link></li>
 
           </ul>
         </div>

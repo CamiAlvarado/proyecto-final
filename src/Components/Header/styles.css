@@ -43,13 +43,22 @@ nav {
   ul {
     display: flex;
     flex-direction: row;
+    
   }
   
   ul li {
     padding: 0.5em 3em ;
     list-style: none;
   }
-  
+  .li{
+    text-decoration: none;
+    color:white;
+  }
+
+  .li:hover{
+    color: yellow;
+  }
+
   .nav__menu ul li:hover {
     color: rgb(253, 253, 253);
     cursor: pointer;

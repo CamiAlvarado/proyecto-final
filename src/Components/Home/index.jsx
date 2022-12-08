@@ -2,30 +2,28 @@ import Carousel from 'react-bootstrap/Carousel';
 import Characters from '../Img/Characters__.jpg';
 import Movies from '../Img/star-wars-movies.jpg';
 import Principal from '../Img/star-wars-home.jpeg';
+import './styles.css';
+import {Link} from 'react-router-dom';
 
 
 
 function Home() {
     return (
-      <Carousel>
+      <Carousel className='carousel'>
         <Carousel.Item>
         <div className='container-img'>
           <img
-            className="d-block w-100"
             src={Principal}
             alt="First slide"
           />
           </div>
-          
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
         </Carousel.Item>
+
+
         <Carousel.Item>
+          <Link to='/Movies'>
           <div className='container-img'>
-          <img
-            className="d-block w-100"
+          <img 
             src={Movies}
             alt="Second slide"
           />
@@ -35,11 +33,14 @@ function Home() {
             <h3>Movies</h3>
             <p>Know more about your favourites movies</p>
           </Carousel.Caption>
+          </Link>
         </Carousel.Item>
+
+
         <Carousel.Item>
+          <Link to='/Cards'>
         <div className='container-img'>
           <img
-            className="d-block w-100"
             src={Characters}
             alt="Third slide"
           />
@@ -51,6 +52,7 @@ function Home() {
               Review about the iconic characters. Who is your favourite?
             </p>
           </Carousel.Caption>
+          </Link>
         </Carousel.Item>
       </Carousel>
     );

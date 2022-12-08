@@ -1,5 +1,6 @@
 .Footer {
     background-color: black;
+    background-image: url('../Img/space-stars.gif');
     color: yellow;
     height: 5em;
     display: flex;

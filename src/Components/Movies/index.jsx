@@ -14,11 +14,16 @@ import Eleven from '../../Components/Img/the-rise-of-the-skywalker.jfif';
 
 function Movies() {
 
-    const moviesArray = [One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Eleven]
+    const moviesArray = [
+        {name: One},
+        {name: Two}
+            // Three, Four, Five, Six, Seven, Eight, Nine, Ten, Eleven
+        ]
     const moviesStarWars  = moviesArray.map((movie) => {
-        
+        return movie.name;
     }
     )
+    console.log(Movies)
 
 
 

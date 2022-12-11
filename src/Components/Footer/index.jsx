@@ -5,12 +5,8 @@ function Footer() {
   return (
     <div className='Footer'>
       <div className='ColumnOne'>
-        <ul>
-          <li>Media</li>
-          <li>Media</li>
-          <li>Media</li>
-          <li>Media</li>
-        </ul>
+       <p>@StarWarsUniverse</p>
+       <p>All rights reserved</p>
       </div>
     </div>
 

@@ -1,3 +1,10 @@
 .carousel{
     text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+.carousel__information h3{
+    font-weight: 900;
+}
+.carousel__information p{
+    font-weight: 600;
 }

@@ -3,6 +3,7 @@
     box-shadow: 0px 0px 15px yellow;
     border: solid 2px grey;
     border-radius: 5%;
+    font-family: 'Russo One', sans-serif;
 }
 
 .mainContainer {
@@ -16,7 +17,6 @@
     
 }
 .imgContainer { 
-    /* max-width: 300px; */
     width: 400px;
     height: 400px;
     display: flex;
@@ -31,4 +31,33 @@ img{
 
 .infoContainer{
     color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoContainer h3 {
+    margin: 0%;
+    padding: 0.5em;
+}
+
+/*Tablet version*/
+@media (max-width: 920px) {
+    /* CARDS */
+    .mainContainer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    }
+
+
+/*Mobile version*/
+@media (max-width: 620px) {
+    .mainContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 }

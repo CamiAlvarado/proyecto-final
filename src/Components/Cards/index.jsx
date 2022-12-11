@@ -58,7 +58,7 @@ function Cards() {
                             <img src={item.image} alt={item.name} />
                         </div>
                         <div className="infoContainer">
-                            <p>{item.name}</p>
+                            <h3>{item.name}</h3>
                             <p>{item.species}</p>
                         </div>
                     </div>

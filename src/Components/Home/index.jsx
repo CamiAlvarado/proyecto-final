@@ -29,7 +29,7 @@ function Home() {
           />
           </div>
   
-          <Carousel.Caption>
+          <Carousel.Caption className='carousel__information'>
             <h3>Movies</h3>
             <p>Know more about your favourites movies</p>
           </Carousel.Caption>
@@ -46,7 +46,7 @@ function Home() {
           />
           </div>
   
-          <Carousel.Caption>
+          <Carousel.Caption className='carousel__information'>
             <h3>Characters</h3>
             <p>
               Review about the iconic characters. Who is your favourite?

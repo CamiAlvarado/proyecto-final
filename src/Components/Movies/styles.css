@@ -1,19 +1,55 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Russo One', sans-serif;
+    border-radius: 10%;
+  
+}
+
+.moviesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    text-align: center;
+    gap: 40px;
+    border-radius: 2.5%;
+   
+}
+
+.movies__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    box-shadow: 0px 0px 15px yellow;
+    border: solid 2px grey;
+    border-radius: 2.5%;
+    color: white;
+}
+
 .movies__container--img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
+   
 }
-
 
 .movies__container--img img {
     width: 400px;
     height: auto;
+    border-radius: 2.5%;
+
 }
 
-.information__container {
-color: antiquewhite;
+.movies__card--Name{
+    font-weight: 700;
+    font-size: 20px;
 }
 
-.movieCard{
-    color:white;
-}

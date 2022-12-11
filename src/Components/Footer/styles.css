@@ -1,16 +1,23 @@
 .Footer {
     background-color: black;
     background-image: url('../Img/space-stars.gif');
-    color: yellow;
+    color: white;
+    font-weight: 700;
     height: 5em;
     display: flex;
     text-align: center;
     justify-content:center;
     flex-direction: column;
+    font-family: 'Russo One', sans-serif;
 }
 
 .ColumnOne{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.ColumnOne p {
+    margin: 0%;
+    font-size: 12px;
 }

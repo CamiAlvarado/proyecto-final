@@ -83,19 +83,22 @@ function Movies() {
     ];
 
     return (
+        <div className='Container'>
         <div className='moviesContainer'>
             {moviesArray.map((item, index) => (
-                <div className='movieCard' key={index}>
-                    <p className='movieName'> {item.name}</p>
-                    <div className='movieImgContainer'>
-                        <img className='movieImg' src={item.img} alt={item.name} />
+                <div className='movies__card' key={index}>
+                    <div className='movies__container--img'>
+                        <img className='moviesImg' src={item.img} alt={item.name} />
                     </div>
-                    <div className='movieDescriptionContainer'>
-                        <p className='movieDescription'>{item.description}</p>
+                    <div className='movies__card--description'>
+                        <p className='movies__card--Name'> {item.name}</p>
+                        <p className='moviesDescription'>{item.description}</p>
                     </div>
                 </div>
+                
             ))
             }
+        </div>
         </div>
     )
 }

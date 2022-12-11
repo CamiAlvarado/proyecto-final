@@ -53,3 +53,10 @@
     font-size: 20px;
 }
 
+/*Mobile version*/
+@media (max-width: 620px) {
+    .movies__container--img img {
+        width: 250px;
+        height: auto;
+    }
+}
